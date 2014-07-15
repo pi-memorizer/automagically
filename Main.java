@@ -18,13 +18,13 @@ public class Main {
 		});
 		while(true) {
 			if(game.key['W'])
-				game.player.y -= 1.0/12.0;
+				game.player.y -= 1.0/2.0;
 			if(game.key['A'])
-				game.player.x -= 1.0/8.0;
+				game.player.x -= 1.0/2.0;
 			if(game.key['S'])
-				game.player.y += 1.0/12.0;
+				game.player.y += 1.0/2.0;
 			if(game.key['D'])
-				game.player.x += 1.0/8.0;
+				game.player.x += 1.0/2.0;
 			console.Draw();
 			try {
 				Thread.sleep(50);
